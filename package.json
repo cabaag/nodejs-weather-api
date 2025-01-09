@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-weather-api",
+  "version": "1.0.0",
+  "description": "Project from https://roadmap.sh/projects/weather-api-wrapper-service",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "express-rate-limit": "^7.5.0",
+    "nodemon": "^3.1.9",
+    "redis": "^4.7.0"
+  }
+}
